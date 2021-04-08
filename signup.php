@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+     <title>Mybook | SignUp Page</title>
+
+  
+</head>
+<body>
+
+     <div id="bar">
+         <div class="book">Mybook</div> 
+         <div class="signup_btn">Log in</div>
+        
+     </div>
+    
+     <div id="bar2">
+         <div class="log_book">Sign up into MyBook</div> 
+            
+            <form action="">
+                                  
+                   <input id="text" type="text"  name="username" placeholder="FirstName"><br><br>
+                   <input id="text" type="text"  name="username" placeholder="LastName"><br><br>
+                  
+                   <div class="gender">Gender:</div>
+                   <select name="" id="text">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                   </select> <br><br>
+
+                   <input id="text" type="text"  name="username" placeholder="Email"><br><br>
+                   
+                   
+                   <input id="text" type="password"  name="password" placeholder="Password"><br><br>
+                   <input id="text" type="password"  name="password" placeholder="re-type Password"><br><br>
+                
+                   <input id="button"  type="submit" value="SignUp"><br><br>
+
+                   <a href="login.php">Click to login</a>
+            </form>
+        
+
+     </div>
+
+ 
+</body>
+</html>

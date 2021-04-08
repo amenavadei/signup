@@ -1,0 +1,72 @@
+body{
+    font-family: Tahoma;
+    background-color: #e9ebee;
+}
+
+
+#bar{
+    height: 100px;
+    background-color:rgb(23, 117, 238);
+    color:white;
+    padding: 5px;
+    
+   }
+
+
+
+#bar2{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.signup_btn{
+      background-color:#42b72a;
+      width: 70px;
+      text-align: center;
+      border-radius: 4px;
+      float: right;
+      padding: 4px;
+      
+    }
+
+
+   
+
+    .book{
+        font-size: 40px;
+          
+       
+    }
+
+    .log_book{
+        margin-bottom: 20px;
+    }
+
+    #text{
+        height: 35px;
+        border-radius: 5px;
+        padding: 4px;
+        border: solid 1px #ccc;
+        width: 300px;
+        font-size: 14px;
+        
+    }
+
+    
+    #button{
+      
+        padding: 5px;
+        width: 300px;
+        color: white;
+        height: 35px;
+        background-color:rgb(23, 117, 238);
+        border-radius: 5px;
+        border: none;
+        
+    }
